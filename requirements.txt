@@ -1,9 +1,24 @@
-# required libraries 
-# use jupyter notebook
-pandas 
-numpy 
-sklearn 
-matplotlib 
-seaborn 
-xgboost 
-imblearn
+# Core ML and Data Processing
+pandas>=1.3.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+imbalanced-learn>=0.8.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+xgboost>=1.5.0
+
+# Model Serialization
+joblib>=1.1.0
+
+# Jupyter Notebook (for development)
+jupyter>=1.0.0
+notebook>=6.4.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=3.0.0
+
+# Production API (optional - see requirements-prod.txt)
+# fastapi>=0.104.1
+# uvicorn[standard]>=0.24.0
+# pydantic>=2.5.0
